@@ -30,7 +30,7 @@ Call the function, then pass the following parameters:
 
  5. `ariaHidden`: Either `true` or `false`.
 
- 6. `classes`: Any custom classes, like `myNiceIcon` to target using JavaScript or so.
+ 6. `classes`: Any custom classes, like `myNiceIcon js-icon` to target using JavaScript or so.
 
  7. `styles`: Any custom styles, like `color: #FFF;`.
 

@@ -5,7 +5,7 @@ const createSVG = (xmlns, width, height, viewbox, ariaHidden, classes, styles, p
     svgIcon.setAttribute("width", width);
     svgIcon.setAttribute("height", height);
     svgIcon.setAttribute("aria-hidden", ariaHidden);
-    svgIcon.className = classes;
+    svgIcon.setAttribute("class", classes);
     svgIcon.setAttribute("style", styles);
     svgIcon.innerHTML = path;
 
