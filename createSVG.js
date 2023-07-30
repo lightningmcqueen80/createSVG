@@ -1,4 +1,4 @@
-const makeSVG2 = (xmlns, width, height, viewbox, ariaHidden, classes, styles, path) => {
+const createSVG = (xmlns, width, height, viewbox, ariaHidden, classes, styles, path) => {
     const svgIcon = document.createElementNS(xmlns, "svg");
     svgIcon.setAttribute("xmlns", xmlns);
     svgIcon.setAttribute("viewBox", viewbox);
